@@ -1,0 +1,27 @@
+.todo{
+    display: inline-block;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 0 40px;
+    background-color: rgb(84, 225, 65);
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.todo:hover{
+    background-color: rgb(65, 31, 84);
+    color: white;
+    cursor: pointer;
+}
+
+.todocomplete{
+    text-decoration: line-through;
+    background-color: rgb(65, 31, 84);
+    color: white;
+}
+
+.todocomplete:hover{
+    background-color: rgb(237, 35, 35);
+    color: black;
+}

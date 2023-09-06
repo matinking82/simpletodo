@@ -1,0 +1,29 @@
+.newtodoform {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background-color: rgb(99, 37, 37);
+}
+
+.newtodoform button {
+    margin: 2px;
+    padding: 10px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.newtodoform button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.newtodoform input{
+    padding: 20px;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+}
